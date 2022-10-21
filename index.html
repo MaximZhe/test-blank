@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Test blank</title>
+    <meta name="description" content="" />
+    <link rel="icon" href="" type="image/x-icon" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content=" Test blank " />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="info">
+        <div class="container">
+          <p class="info-title">
+            В случае несогласия с результатами экзамена Кандидат имеет право на
+            подачу апелляции:
+          </p>
+          <ul class="info-list">
+            <li class="info-list__item">
+              сроки подачи: не позднее 6 недель с даты письменного экзамена.
+            </li>
+            <li class="info-list__item">
+              сроки рассмотрения: от 2 дней до 3 недель с даты получения
+              запроса.
+            </li>
+            <li class="info-list__item">
+              стоимость: 9500 рублей* +100 рублей комиссия за онлайн перевод
+            </li>
+          </ul>
+          <form class="info-form" id="info-form" method="post" action="">
+            <div class="info-form-item">
+              <p class="info-form-item__title">
+                <span>СКАЧАЙТЕ И ЗАПОЛНИТЕ </span>два файла с заявлением на
+                апелляцию
+              </p>
+              <div class="info-form-item__files">
+                <div class="info-form-file" data-file="one">
+                  <img class="info-form-file__name" src="./images/pdf-icon.svg" width="31px" height="13px" alt=""/>
+                  <div class="info-form-file__inner">
+                    <img class="info-form-file__icon" src="./images/download-icon.svg" width="18px" height="22px" alt=""/>
+                  </div>
+                  <span class="info-form-file__number" data-download="one">1</span>
+                  <a href="testfile.txt" download="testfile" target="_blank" class="info-form-file__download">Скачать</a>
+                </div>
+                <div class="info-form-file" data-file="two">
+                  <img class="info-form-file__name" src="./images/pdf-icon.svg" width="31px" height="13px" alt=""/>
+                  <div class="info-form-file__inner">
+                    <img class="info-form-file__icon" src="./images/download-icon.svg" width="18px" height="22px" alt=""/>
+                  </div>
+                  <span class="info-form-file__number" data-download="two">2</span>
+                  <a href="testfile.txt" download="testfile" target="_blank" class="info-form-file__download">Скачать</a>
+                </div>
+              </div>
+            </div>
+            <div class="info-form-item">
+              <p class="info-form-item__title">
+                <span>ОТСКАНИРУЙТЕ И ЗАГРУЗИТЕ </span>заполненные заявления
+              </p>
+              <div class="info-form-item__files">
+                <div class="info-form-file" data-file="three">
+                  <div class="info-form-file__loading" id="loading-block">
+                    <label for="file-load-one" id="loading-block-label"></label>
+                    <input class="info-form-file__input" type="file" name="file-load" id="file-load-one" accept="" required />
+                  </div>
+                  <span class="info-form-file__number" data-loading="one">1</span>
+                </div>
+                <div class="info-form-file" data-file="four">
+                  <div class="info-form-file__loading" id="loading-block-two">
+                    <label for="file-load-two" id="loading-block-label-two"></label>
+                    <input class="loading-block__input" type="file" name="file-load" id="file-load-two" accept="" required />
+                  </div>
+                  <span class="info-form-file__number" data-loading="two">2</span>
+                </div>
+              </div>
+            </div>
+            <div class="info-form-item">
+              <p class="info-form-item__title">
+                <span>ОПЛАТИТЕ </span>подачу апелляции
+              </p>
+              <p class="info-form-item__subtitle">
+                Стоимость апелляции - 7700 ₽
+              </p>
+              <button class="btn info-form-item__btn" type="submit">
+                Оплата апелляции
+              </button>
+            </div>
+          </form>
+          <ul class="info-important">
+            <li class="info-important__item">
+              Важная информация для корректного заполнения заявления:
+            </li>
+            <li class="info-important__item">
+              Centre name: BKC-ih Moscow IELTS Test Centre
+            </li>
+            <li class="info-important__item">Centre number: RU087</li>
+            <li class="info-important__item">
+              Candidate number: Цифры в верхнем правом углу сертификата/можно не
+              заполнять, если сертификат еще не получен.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
